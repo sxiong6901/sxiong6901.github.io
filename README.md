@@ -1,3 +1,4 @@
 # sxiong6901.github.io
 
-this is my starter profile
+This is my starter profile.
+This is will be updated as I complete the homework assignments.
