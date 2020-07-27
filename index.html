@@ -1,75 +1,71 @@
-<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
 <head>
-
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"/>
-  <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/components/card/">
+    <html lang="en-us">
+    
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
 </head>
 
+<style>
+    .name {
+        background-color: lightcoral;
+        float: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .navbar {
+        float: right;
+    }
+
+</style>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-      </li>
-    </ul>
-    </div>
-  </nav>
-
-  <div class="btn-group" role="group" aria-label="Basic example">
-    <style>
-      .btn-group {;
-        font-size: 20px;
-      }
-    </style>
-
-  </div>
-
-  <div class="container">
-
-    <section id="main-bio">
-
-      <h2>About Me</h2>
-      <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGly012_ucH1A/profile-displayphoto-shrink_400_400/0?e=1600300800&v=beta&t=gTe93LJDLwBgX8ghTRBrwFQyGT7oRxm9I1dKcHeDpHE" alt="Soua Xiong" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-
-    </section>
-
-    <section id="contact-info">
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <ul>
-            <li><strong>Email:</strong> <a href="mailto:soua.p.xiong@hotmail.com">soua.p.xiong@hotmail.com</a></li>
-            <li><strong>Github:</strong> <a href="https://sxiong6901.github.io/#">sxiong6901.github.io</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/soua-xiong-a1b09b1a3/">LinkedIn</a></li>
-            <li><strong>Calendar:</strong> <a href="https://sxiong6901.github.io/calendar">Calendar</a></li>
-          </ul>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1><p class="name">Soua Xiong</p></h1>
+                <p class="navbar">
+                <nav class="navbar navbar-expand-sm navbar-white bg-white">
+                    <nav aria-label="breadcrumb">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <strong> About Me </strong> <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Contact </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Portfolio </a>
+                                </li>
+                            </ul> 
+                        </div>
+                    </nav>
+                </nav>  
+                </p>
         </div>
-      </div>
-      
-    </section>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="aboutMe"><h1>About Me</h1></p>   
+                </div>
 
-  </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-md-4">
+                            <img class="img img-thumbnail" src="http://placehold.it/200x200">
+                        </div>
+                        <div class="col-md-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 
 </body>
-
 </html>
